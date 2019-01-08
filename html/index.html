@@ -20,8 +20,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
         integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
 
-  <link rel="stylesheet" id="Armata-css" href="https://fonts.googleapis.com/css?family=Armata%3A400%2C700&amp;ver=4.9.9" type="text/css" media="all">
+  <link rel="stylesheet" id="Armata-css" href="https://fonts.googleapis.com/css?family=Armata%3A400%2C700&amp;ver=4.9.9"
+        type="text/css" media="all">
+  <link rel="stylesheet" id="Aldrich-css"
+        href="https://fonts.googleapis.com/css?family=Aldrich%3A400%2C700&amp;ver=4.9.9" type="text/css" media="all">
   <link rel="stylesheet" id="Pacifico-css" href="https://fonts.googleapis.com/css?family=Pacifico&amp;ver=4.9.9"
+        type="text/css" media="all">
+  <link rel="stylesheet" id="Quicksand-css" href="https://fonts.googleapis.com/css?family=Quicksand&amp;ver=4.9.9"
         type="text/css" media="all">
 
 </head>
@@ -36,36 +41,47 @@
 <!--<p>Hello world! This is HTML5 Boilerplate.</p>-->
 
 <div class="your-wrapper">
-  <header id="yourHeader" class="your-logo-in">
-    <div class="your-head-inner your-container">
-      <div class="your-container-sm">
-        <div class="your-head-row">
-          <div id="yourHeadCol1" class="your-head-col text-left">
-            <a id="yourLogo" class="your-logo"
-               href="https://certy.px-lab.com/developer/">
-              <img src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/09/certy_logo_wh.png"
-                   alt="Certy – Developer">
-              <span>Web Developer</span>
+  <header id="yourHeader" class="your-header">
+    <div class="your-container">
+      <div class="your-container-sm clear-mrg text-center">
+        <div class="your-header-row">
+          <div class="your-logo">
+            <a href="#">
+              <img
+                src="https://certy.px-lab.com/developer/wp-content/uploads/sites/6/2017/09/certy_logo_wh.png">
+              <span>.Developer</span>
             </a>
           </div>
-          <div id="yourHeadCol2" class="your-head-col text-right">
-            <div class="your-nav-container your-container">
-              <nav id="yourMainNav">
-                <ul class="clear-list">
-                  <li class="current-menu-item ">
-                    <a href="#">2019</a></li>
-                  <li class="">
-                    <a href="#">2018</a></li>
-                  <li class="">
-                    <a href="#">2017</a></li>
-                </ul>
-              </nav>
-            </div>
+          <div class="your-nav">
+            <a href="" class="active">2019</a>
+            <a href="">2018</a>
+            <a href="">2017</a>
           </div>
         </div>
       </div>
     </div>
   </header>
+
+  <div id="yourContainer" class="your-container">
+
+  </div>
+
+  <footer id="yourFooter" class="your-footer">
+    <div class="your-container">
+      <div class="your-container-sm clear-mrg text-center"><p>Smartmiao Resume 2019</p></div>
+    </div>
+  </footer>
+  <button id="yourBtnUp" class="your-btn-up">
+    <span class="icon-arrow-page-up"></span>
+  </button>
+
+  <svg id="yourBgShape1" height="519" width="758">
+    <polygon class="pol" points="0,455,693,352,173,0,92,0,0,71"></polygon>
+  </svg>
+
+  <svg id="yourBgShape2" height="536" width="633">
+    <polygon points="0,0,633,0,633,536"></polygon>
+  </svg>
 </div>
 
 <script src="js/vendor/modernizr-3.6.0.min.js"></script>
