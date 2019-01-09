@@ -92,6 +92,67 @@ a {
   margin-right: 56px;
 }
 
+/* sidebox */
+.sidebox {
+  width: 290px;
+  box-shadow: -4px 7px 15px 1px rgba(0,0,0,.2);
+}
+
+.widget-card {
+  padding: 30px 20px 20px;
+  background-color: #1FA184;
+  text-align: center;
+  color: #FFF;
+}
+
+.card-avatar img {
+  width: 195px;
+  height: 195px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.card-info {
+  margin-top: 33px;
+}
+
+.card-info h2 {
+  font-size: 1.625em;
+  margin-top: 0;
+  margin-bottom: .688em;
+}
+
+.card-info p {
+  margin-top: 0;
+  color: inherit;
+  opacity: .65;
+  font-size: 1.143em;
+}
+
+.social-list a{
+  margin: 5px 12px;
+}
+
+.social-list a img{
+  width: 20px;
+  height: 20px;
+}
+
+.widget-text {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.widget-text .link {
+  color: #000;
+  background-color: #DEC746;
+  font-size: 15px;
+  padding: 12px 35px;
+  border-radius: 35px;
+  border: 2px solid transparent;
+  font-weight: 700;
+}
+
 /* footer */
 .your-footer {
   padding-top: 20px;
