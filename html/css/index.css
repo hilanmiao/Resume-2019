@@ -1,3 +1,10 @@
+@font-face {
+  font-family:'icomoon';
+  src:url('../font/icomoon.ttf?3b2ao5') format('truetype');
+  font-weight:normal;
+  font-style:normal
+}
+
 body {
   background: #121F26;
   color: #FFF;
@@ -7,6 +14,7 @@ body {
 }
 
 a {
+  color: #FFFFFF;
   text-decoration: none;
 }
 
@@ -20,6 +28,10 @@ a {
 
 .text-center {
   text-align: center;
+}
+
+.text-upper {
+  text-transform: uppercase;
 }
 
 /* header */
@@ -37,6 +49,7 @@ a {
   justify-content: space-between;
   align-items: center;
   height: 63px;
+  margin-left: 330px;
 }
 
 .your-logo {
@@ -85,15 +98,49 @@ a {
   max-width: 1196px;
   width: 100%;
   margin: 0 auto;
+  display: flex;
 }
 
 .your-container-sm {
-  margin-left: 330px;
-  margin-right: 56px;
+  flex: 1;
 }
+
+.pager-layers {
+
+}
+
+.pager-layers h1, h2, h3, h4, h5, h6 {
+  font-family: 'Aldrich',sans-serif;
+}
+
+.pager-layers .pager {
+  background-color: #313C42;
+  border: 1px solid #2C363B;
+
+}
+
+.pager-layers .title-lg{
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+
+.pager-cont {
+  padding: 40px 20px;
+}
+
+.padd-box {
+  margin-left: 3.4%;
+  margin-right: 3.4%;
+}
+
+
 
 /* sidebox */
 .sidebox {
+  margin-right: 40px;
   width: 290px;
   box-shadow: -4px 7px 15px 1px rgba(0,0,0,.2);
 }
@@ -153,6 +200,60 @@ a {
   font-weight: 700;
 }
 
+/* nav scroll */
+.nav-scroll {
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-scroll .nav-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-scroll .nav-list a{
+  padding: 10px 0;
+}
+
+.nav-scroll .nav-list span {
+  font-family: 'icomoon' !important;
+  font-size: 28px;
+  line-height: 42px;
+}
+
+.nav-scroll .nav-img {
+  padding: 10px 0;
+}
+
+.nav-scroll .nav-img img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+
+.nav-scroll .icon-contact:before {
+  content: "\e904";
+}
+
+.nav-scroll .icon-blog:before {
+  content: "\e905";
+}
+
+.nav-scroll .icon-references:before {
+  content: "\e901";
+}
+
+.nav-scroll .icon-experience:before {
+  content: "\e903";
+}
+
+.nav-scroll .icon-portfolio:before {
+  content: "\e902";
+}
+
 /* footer */
 .your-footer {
   padding-top: 20px;
@@ -160,11 +261,8 @@ a {
   text-align: center;
 }
 
-@font-face {
-  font-family:'icomoon';
-  src:url('../font/icomoon.ttf?3b2ao5') format('truetype');
-  font-weight:normal;
-  font-style:normal
+.your-footer .your-container-sm {
+  margin-left: 330px;
 }
 
 /* button up */
