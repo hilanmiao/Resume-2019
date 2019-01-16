@@ -1,8 +1,8 @@
 @font-face {
-  font-family:'icomoon';
-  src:url('../font/icomoon.ttf?3b2ao5') format('truetype');
-  font-weight:normal;
-  font-style:normal
+  font-family: 'icomoon';
+  src: url('../font/icomoon.ttf?3b2ao5') format('truetype');
+  font-weight: normal;
+  font-style: normal
 }
 
 body {
@@ -62,7 +62,7 @@ p {
 .your-logo a {
   display: flex;
   align-items: center;
-  font-family: 'Pacifico',handwriting;
+  font-family: 'Pacifico', handwriting;
   font-size: 26px;
   line-height: 1;
   white-space: nowrap;
@@ -74,7 +74,7 @@ p {
   vertical-align: middle;
 }
 
-.your-logo img+span {
+.your-logo img + span {
   margin-left: 10px;
 }
 
@@ -96,7 +96,6 @@ p {
   color: #FFFFFF;
 }
 
-
 /* container */
 .your-container {
   max-width: 1196px;
@@ -114,7 +113,7 @@ p {
 }
 
 .pager-layers h1, h2, h3, h4, h5, h6 {
-  font-family: 'Aldrich',sans-serif;
+  font-family: 'Aldrich', sans-serif;
 }
 
 .pager-layers .pager {
@@ -123,7 +122,7 @@ p {
 
 }
 
-.pager-layers .title-lg{
+.pager-layers .title-lg {
   font-weight: 700;
   font-size: 30px;
   margin-top: 0;
@@ -142,7 +141,7 @@ p {
 /* pager about */
 
 .share-btn {
-  border:2px solid #1FA184;
+  border: 2px solid #1FA184;
   font-size: 15px;
   font-weight: 700;
   padding: 8px 25px;
@@ -185,7 +184,7 @@ p {
   font-size: 1.35em;
   font-weight: 400;
   margin-bottom: 1.571em;
-  font-family: 'Aldrich',sans-serif;
+  font-family: 'Aldrich', sans-serif;
   line-height: 1.1;
 }
 
@@ -199,7 +198,7 @@ p {
   margin: 0 0 .563em;
 }
 
-#skills .info .info-item  .left {
+#skills .info .info-item .left {
   font-size: .9em;
   font-weight: 700;
   width: 100px;
@@ -209,12 +208,137 @@ p {
   padding-left: 12px;
 }
 
+#skills .progress-bullets {
+  margin-bottom: 1.375em;
+}
+
+#skills .progress-bullets .progress-title {
+  font-weight: 700;
+  font-size: .85em;
+  line-height: 1.2em;
+  display: block;
+  margin-bottom: .7em;
+}
+
+#skills .progress-bullets .progress-bar {
+  position: relative;
+  line-height: .938em;
+}
+
+#skills .progress-bullets .bullet {
+  border: 1px solid #1FA184;
+  margin-right: .1em;
+  width: .938em;
+  height: .938em;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#skills .progress-bullets .bullet.fill {
+  background-color: #1FA184;
+}
+
+#skills .progress-bullets .progress-text {
+  font-size: .8em;
+  line-height: .938em;
+  color: #757575;
+}
+
+#data {
+  display: flex;
+  border-bottom: 1px solid #2C363B;
+  padding-bottom: 20px;
+  margin-left: 3.4%;
+  margin-right: 3.4%;
+  margin-bottom: 30px;
+}
+
+#data .data-item {
+  flex: 1;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#data h3 {
+  margin-top: 0;
+  color: #757575;
+  font-size: 1.35em;
+  font-weight: 400;
+  margin-bottom: 1.571em;
+  font-family: 'Aldrich', sans-serif;
+  line-height: 1.1;
+}
+
+#data .progress-line {
+  margin-bottom: 20px;
+}
+
+#data .progress-line .progress-title {
+  padding-right: 3.8em;
+  font-weight: 700;
+  font-size: .85em;
+  line-height: 1.2em;
+  display: block;
+  margin-bottom: .7em;
+}
+
+#data .progress-line .progress-bar {
+  width: 100%;
+  height: 5px;
+}
+
+#data .progress-line .progress-text {
+  top: -25px;
+  right: 0px;
+  color: inherit;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  transform: translate(0px, 0px);
+}
+
+#data .progress-chart-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#data .progress-chart {
+  text-align: center;
+  display: inline-block;
+}
+
+#data .progress-chart .progress-bar {
+  height: 93px;
+  width: 93px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#data .progress-chart .progress-text {
+  top: 50%;
+  left: 50%;
+  color: inherit;
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  transform: translate(-50%, -50%);
+}
+
+#data .progress-chart .progress-title {
+  margin-top: 10px;
+  font-size: .85em;
+  line-height: 1.2em;
+  display: block;
+  margin-bottom: .7em;
+  font-weight: 700;
+}
 
 /* sidebox */
 .sidebox {
   margin-right: 40px;
   width: 290px;
-  box-shadow: -4px 7px 15px 1px rgba(0,0,0,.2);
+  box-shadow: -4px 7px 15px 1px rgba(0, 0, 0, .2);
   height: fit-content;
 }
 
@@ -249,16 +373,17 @@ p {
   font-size: 1.143em;
 }
 
-.social-list a{
+.social-list a {
   margin: 5px 12px;
 }
 
-.social-list a img{
+.social-list a img {
   width: 20px;
   height: 20px;
 }
 
 .widget-text {
+  background-color: #313C42;
   padding: 50px 20px;
   text-align: center;
 }
@@ -287,7 +412,7 @@ p {
   align-items: center;
 }
 
-.nav-scroll .nav-list a{
+.nav-scroll .nav-list a {
   padding: 10px 0;
 }
 
