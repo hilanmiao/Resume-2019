@@ -247,11 +247,11 @@ p {
 
 #data {
   display: flex;
-  border-bottom: 1px solid #2C363B;
+  /*border-bottom: 1px solid #2C363B;*/
   padding-bottom: 20px;
   margin-left: 3.4%;
   margin-right: 3.4%;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 
 #data .data-item {
@@ -335,6 +335,12 @@ p {
 }
 
 /* work experience */
+#exp {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #2C363B;
+}
+
 .education {
   margin-left: 210px;
   position: relative;
@@ -367,6 +373,16 @@ p {
   height: 4px;
   border-radius: 50%;
   background-color: #FFF;
+}
+
+.education-box:last-child:after {
+  top: 14px;
+  left: 0;
+  bottom: 0;
+  width: 2px;
+  content: '';
+  position: absolute;
+  background-color: #313C42;
 }
 
 .education-date {
@@ -428,6 +444,108 @@ p {
 
 .education-box p {
   font-size: .875em;
+}
+
+#portfolio {
+
+}
+
+.pf-filter button {
+  color: #FFF;
+  opacity: .54;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  margin: 0 40px 0 0;
+  border: 0;
+  padding: 0;
+  background: 0 0;
+  transition: color .2s ease-out;
+  cursor: pointer;
+}
+
+.pf-filter button.active, .pf-filter button:hover {
+  opacity: 1;
+}
+
+#interests {
+  padding-bottom: 20px;
+}
+
+#interests ul {
+  line-height: 1.1em;
+  padding-left: 0;
+  list-style: none;
+}
+
+#interests .icon-list .row {
+  display: flex;
+}
+
+#interests .icon-list .row .item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+#interests span {
+  font-family: 'icomoon' !important;
+  color: #1FA184;
+  font-size: 1.7em;
+  margin-right: 10px;
+}
+
+.icon-animal-lover:before {
+  content: "\e912";
+}
+
+.icon-island:before {
+  content: "\e913";
+}
+
+.icon-bicycle:before {
+  content: "\e931";
+}
+
+.icon-party:before {
+  content: "\e938";
+}
+
+.icon-magic:before {
+  content: "\f0d0";
+}
+
+.icon-coffee:before {
+  content: "\f0f4";
+}
+
+#wisdom {
+
+}
+
+#wisdom .togglebox {
+  list-style: none;
+  margin: 22px 0;
+  padding: 0;
+}
+
+.togglebox>li {
+  margin-bottom: 5px;
+}
+
+.togglebox-header {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+  padding: 10px;
+  transition: background-color .15s linear 0s;
+  position: relative;
+  background-color: #1FA184;
+  transition: opacity .2s ease-out;
+  border-radius: 4px;
 }
 
 /* sidebox */
